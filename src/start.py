@@ -1,3 +1,4 @@
+import sys
 import os
 import subprocess
 import threading
@@ -17,6 +18,8 @@ from datetime import datetime
 import auth
 import sys
 
+# Add the src/ directory to the Python path
+sys.path.append(os.path.join(os.path.dirname(__file__), 'src'))
 
 def make_layout() -> Layout:
     layout = Layout(name="root")
