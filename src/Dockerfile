@@ -4,19 +4,21 @@ FROM python:3.9-slim
 # Set the working directory in the container
 WORKDIR /app
 
-ENV PYTHONPATH=/app/src
-
 # Copy the requirements.txt file into the container
 COPY requirements.txt .
 
 # Install the dependencies
 RUN pip install --no-cache-dir -r requirements.txt
 
-# Copy the current directory contents into the container at /app
-COPY . .
+# Copy the src folder contents into the container at /app/src
+COPY src/ ./src
 
-# Expose port 8000 (or whichever port the app will run on)
+# Set the Python path to include src/
+ENV PYTHONPATH=/app/src
+
+# Expose the port if necessary
 EXPOSE 8000
 
 # Command to run the application
-CMD ["python", "start.py"]
+CMD ["python", "src/start.py"]
+
