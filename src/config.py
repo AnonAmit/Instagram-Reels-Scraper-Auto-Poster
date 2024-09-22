@@ -42,16 +42,16 @@ POSTING_INTERVAL_IN_MIN = 15  # Every 15 Minutes
 SCRAPER_INTERVAL_IN_MIN = 720  # Every 12 hours
 
 # Instagram Username & Password
-USERNAME = "your_username"
-PASSWORD = "your_password"
+USERNAME = "southmovie.clips"
+PASSWORD = "guru822899"
 
 # Account List for scraping
 ACCOUNTS = [
-    "totalgaming_official",
-    "carryminati",
-    "techno_gamerz",
-    "payalgamingg",
-    "dynamo__gaming"
+    "south_movie_loverr",
+    "southmovielovers_9",
+    "south_movie_crush",
+    "southmoviehub7",
+    "south_movie_scenes_2"
 ]
 
 # like_and_view_counts_disabled
@@ -61,14 +61,14 @@ LIKE_AND_VIEW_COUNTS_DISABLED = 0
 DISABLE_COMMENTS = 0
 
 # HASHTAGS to add while Posting
-HASHTAGS = "#reels #shorts #likes #follow #Reels-AutoPilot"
+HASHTAGS = "#parts #family #lovestatus #southmovies #movieclips #lovequotes #loveshayari #love #couple #action #dosti #movies"
 
 #--------------------------------------------------------------------------------------------------#
 # Youtube Configurations                                                                           #
 #--------------------------------------------------------------------------------------------------#
 
 # IS RUN YOUTUBE SCRAPER
-IS_ENABLED_YOUTUBE_SCRAPING = 1
+IS_ENABLED_YOUTUBE_SCRAPING = 0
 
 
 # IS RUN YOUTUBE SCRAPER
